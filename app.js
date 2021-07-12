@@ -7,7 +7,6 @@ starsArr.forEach((star, actualIndex) => {
         starsArr.forEach((otraStar, reIndex) => {
             if(reIndex <= actualIndex) {
                 otraStar.classList.add('rated');
-                console.log()
             }
         });
     });
