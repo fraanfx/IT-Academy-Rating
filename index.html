@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex 4 IT Academy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: blueviolet;
+    }
+    section{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    i{
+      font-size: 40px;
+      color: #e7e7e7;  
+      cursor: pointer; 
+    }
+
+    div:hover > i{
+         color: #ffc70e;
+    }
+    div:hover > i:hover ~ i{
+        color: #e7e7e7; 
+    }
+    i.rated{
+        color: #ffc70e;
+    }
+  
+    </style>
+
+</head>
+<body>
+<section>
+   
+  <div id="contenedor">
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    </div>
+
+
+        
+
+</section>
+    <script src="./app.js"></script>
+</body>
+</html>
